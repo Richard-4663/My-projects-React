@@ -1,7 +1,7 @@
 import { useState } from "react"
-import Button from "../../components/Button"
+import Button from "../components/Button"
 
-function Home(){
+function Contador(){
 
     const [count, setCount] = useState(0)
     const aumentarContador = () => setCount((prevCount) => prevCount + 1)
@@ -16,4 +16,4 @@ function Home(){
     )
 }
 
-export default Home
+export default Contador

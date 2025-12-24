@@ -1,10 +1,16 @@
 import './App.css'
-import Home from './pages/Home/index.jsx'
+import Contador from './pages/contador.jsx'
+import ExibirDados from './pages/ExibirDados.jsx'
+
 
 function App() {
 
   return(
-    <Home />
+    <div className='content'>
+      <Contador />
+      <br />
+      <ExibirDados />
+    </div>
   )
 
 }

@@ -1,6 +1,6 @@
 function Button({text, funcao}){
     return(
-        <button onClick={funcao}> {text} </button>
+        <button className="btn btn-primary" onClick={funcao}> {text} </button>
     )
 }
 
