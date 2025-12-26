@@ -7,8 +7,8 @@ function App() {
 
   return(
     <div className='content'>
-      <Contador />
-      <br />
+      {/* <Contador />
+      <br /> */}
       <ExibirDados />
     </div>
   )
