@@ -1,6 +1,6 @@
-function Button({text, funcao}){
+function Button({text, onClick}){
     return(
-        <button className="btn btn-primary" onClick={funcao}> {text} </button>
+        <button className="btn btn-primary m-2" onClick={onClick} > {text} </button>
     )
 }
 
