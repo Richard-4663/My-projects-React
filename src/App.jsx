@@ -1,15 +1,12 @@
 import './App.css'
-import Contador from './pages/contador.jsx'
-import ExibirDados from './pages/ExibirDados.jsx'
+import PanelOptions from './components/PanelOptions.jsx'
 
 
 function App() {
 
   return(
     <div className='content'>
-      <Contador />
-      <hr />
-      <ExibirDados />
+      <PanelOptions />
     </div>
   )
 

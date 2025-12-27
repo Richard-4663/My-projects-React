@@ -20,8 +20,8 @@ function Contador(){
     return(
 
         <div>
-            <h1>aqui é o Home</h1>
-            <h2>contador: {count}</h2>
+            <h1 className="mb-5">Bem vindo ao contador</h1>
+            <h2 className="mb-5">contador: {count}</h2>
             <Button text="Diminuir" onClick={() => alterarContador(-1)}/>
             <Button text="Aumentar" onClick={() => alterarContador(1)}/>
             <br />
