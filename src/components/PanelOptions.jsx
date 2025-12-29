@@ -18,6 +18,7 @@ function PanelOptions(){
                 <li className="nav-item">
                     <a className={page === "ExibirDados" ? "nav-link active" : "nav-link"} href='#' onClick={() => setPage('ExibirDados')}>Exibir Dados</a>
                 </li>
+
             </ul>
 
             <hr />
